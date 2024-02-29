@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "group-information-client-side-solution",
+    "id": "a6f8aafe-58a6-4a88-94fe-fbb0b7fb9621",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "group-information description"
+      },
+      "longDescription": {
+        "default": "group-information description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "group-information Feature",
+        "description": "The feature that activates elements of the group-information solution.",
+        "id": "a84ab7c2-57e9-41f3-a3ba-67127de9ef58",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/group-information.sppkg"
+  }
+}

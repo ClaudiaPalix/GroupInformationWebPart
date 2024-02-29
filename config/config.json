@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "group-info-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/groupInfo/GroupInfoWebPart.js",
+          "manifest": "./src/webparts/groupInfo/GroupInfoWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GroupInfoWebPartStrings": "lib/webparts/groupInfo/loc/{locale}.js"
+  }
+}
